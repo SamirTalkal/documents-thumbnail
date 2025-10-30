@@ -2,4 +2,3 @@ fastapi
 uvicorn
 pymupdf
 python-multipart
-python-dotenv
