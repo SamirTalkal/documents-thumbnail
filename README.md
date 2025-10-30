@@ -1,5 +1,10 @@
 # Document Thumbnail Service
 
+> **Branch Note:**
+> The `stateless-base64` branch provides a stateless version of the API that directly returns the generated document thumbnail (as base64 or PNG bytes) in the HTTP response, without saving files or images on disk. Use this branch if you want a purely stateless, non-persistent thumbnail microservice.
+>
+> The `main` branch contains the classic/persistent version, which saves uploads and generated thumbnails for later retrieval and management.
+
 A FastAPI service that generates thumbnails from uploaded documents (PDF, DOC, DOCX, PPT, PPTX).
 
 ## Features
